@@ -1,0 +1,26 @@
+.navbar{
+    background-color: teal;   
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+p{
+    font-size: 37px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right_heading{
+ 
+    font-size: 20px;
+    margin-right: 0px;
+}
+@media only screen and (max-width:750px){
+    p{
+        font-size: 28px;
+    }
+    
+}
+

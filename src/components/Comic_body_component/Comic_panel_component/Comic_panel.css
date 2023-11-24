@@ -1,0 +1,92 @@
+.comic_panel_box{
+    border: 2px solid rgb(101, 99, 99);
+    border-radius: 12px;
+    height: 460px;
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px solid grey;
+  background-color: white;
+  /* flex: 1; */
+}
+@media only screen and (max-width:1250px){
+    .comic_panel_box{
+        width: 45vw;
+        height: 460px;
+        /* background-color: red; */
+    }
+}
+@media only screen and (max-width:750px){
+    .comic_panel_box{
+        width: 80vw;
+        height: 460px;
+        /* background-color: blue; */
+    }
+
+}
+
+.box_no{
+    height: 35px;
+    width: 30px;
+    background-color: teal;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    font-weight: 600;
+}
+.comic_panel_img{
+    height: 330px;
+    width: 500px;
+}
+.comic_panel_img_div{
+    margin-top: 20px;
+    height: 360px;
+    width: 680px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading{ 
+    margin-top: 10px; 
+}
+.loader{
+    margin-top: 70px;
+
+}
+
+input{
+    margin-top: 30px;
+    height: 20px;
+    width: 240px;
+}
+.comic_panel_img{
+    height: 300px;
+    width: 300px;
+}
+.search_button{
+    background-color: salmon;
+    border: none;
+    border-radius: 4px;
+    height: 31px;
+    width: 90px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+.search_button:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+}
