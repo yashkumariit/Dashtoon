@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Dashtoon/static/css/main.b24865fb.css",
+    "main.js": "/Dashtoon/static/js/main.9c872aa0.js",
+    "index.html": "/Dashtoon/index.html",
+    "main.b24865fb.css.map": "/Dashtoon/static/css/main.b24865fb.css.map",
+    "main.9c872aa0.js.map": "/Dashtoon/static/js/main.9c872aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b24865fb.css",
+    "static/js/main.9c872aa0.js"
+  ]
+}
